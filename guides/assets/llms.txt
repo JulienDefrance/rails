@@ -1,0 +1,115 @@
+# Ruby on Rails Guides
+
+Ruby on Rails Guides are the official, in-depth documentation for Ruby on Rails, a web application development framework written in the
+Ruby programming language. The guides are designed to make you immediately productive with Rails, and to help you understand how all 
+the pieces fit together. Guides are written in GitHub Flavored
+
+Markdown and published as HTML at https://guides.rubyonrails.org. 
+
+Edge (in-development) guides for the main branch are published at https://edgeguides.rubyonrails.org, and versioned guides for past
+releases are available at https://guides.rubyonrails.org/vX.Y/ (for example https://guides.rubyonrails.org/v7.2/).
+
+Ruby is a dynamic, general-purpose programming language. Rails is a model-view-controller (MVC) framework providing default structures for
+a database, a web service, and web pages. It encourages and facilitates the use of web standards such as JSON or XML for data transfer, and
+HTML, CSS and JavaScript for display and user interfacing. Rails emphasizes the use of well-known software engineering patterns and
+paradigms, including convention over configuration (CoC), don't repeat yourself (DRY), and the active record pattern.
+
+The guides below assume a working knowledge of Ruby and Rails and are not intended as a replacement for the API documentation at
+https://api.rubyonrails.org. Guides marked "work in progress" are incomplete drafts.
+
+## Start Here
+
+- [Getting Started with Rails](https://guides.rubyonrails.org/getting_started.html): Everything you need to know to install Rails and create your first application.
+- [Install Ruby on Rails](https://guides.rubyonrails.org/install_ruby_on_rails.html): Learn how to install the Ruby programming language and Ruby on Rails.
+
+## Models
+
+- [Active Record Basics](https://guides.rubyonrails.org/active_record_basics.html): How models interact with the application's database.
+- [Active Record Migrations](https://guides.rubyonrails.org/active_record_migrations.html): Evolving your database schema over time using a Ruby DSL.
+- [Active Record Validations](https://guides.rubyonrails.org/active_record_validations.html): Validating the state of objects before they go into the database.
+- [Active Record Callbacks](https://guides.rubyonrails.org/active_record_callbacks.html): Hooking into the life cycle of Active Record objects.
+- [Active Record Associations](https://guides.rubyonrails.org/association_basics.html): Connections between two Active Record models.
+- [Active Record Query Interface](https://guides.rubyonrails.org/active_record_querying.html): Retrieving data from the database using Active Record.
+- [Active Model Basics](https://guides.rubyonrails.org/active_model_basics.html): Plain Ruby objects with Action Pack integration, without database persistence.
+
+## Views
+
+- [Action View Overview](https://guides.rubyonrails.org/action_view_overview.html): Generating HTML for web responses.
+- [Layouts and Rendering in Rails](https://guides.rubyonrails.org/layouts_and_rendering.html): Rendering, redirecting, content_for blocks, and partials.
+- [Action View Helpers](https://guides.rubyonrails.org/action_view_helpers.html): Common helpers for dates, links, images, sanitizing and localizing content.
+- [Action View Form Helpers](https://guides.rubyonrails.org/form_helpers.html): Generating form markup without the tedium of handling naming and attributes by hand.
+
+## Controllers
+
+- [Action Controller Overview](https://guides.rubyonrails.org/action_controller_overview.html): How controllers work and fit into the request cycle.
+- [Action Controller Advanced Topics](https://guides.rubyonrails.org/action_controller_advanced_topics.html): CSRF protection, HTTP authentication, streaming, exceptions, log filtering.
+- [Rails Routing from the Outside In](https://guides.rubyonrails.org/routing.html): How the Rails router recognizes URLs and dispatches to controller actions.
+
+## Other Components
+
+- [Active Support Core Extensions](https://guides.rubyonrails.org/active_support_core_extensions.html): Ruby language extensions and utilities used throughout Rails.
+- [Action Mailer Basics](https://guides.rubyonrails.org/action_mailer_basics.html): Sending emails from your application.
+- [Action Mailbox Basics](https://guides.rubyonrails.org/action_mailbox_basics.html): Receiving emails with Action Mailbox.
+- [Action Text Overview](https://guides.rubyonrails.org/action_text_overview.html): Handling rich text content with Action Text.
+- [Active Job Basics](https://guides.rubyonrails.org/active_job_basics.html): Declaring and running background jobs on various queuing backends.
+- [Active Storage Overview](https://guides.rubyonrails.org/active_storage_overview.html): Uploading files to cloud storage and attaching them to Active Record models.
+- [Action Cable Overview](https://guides.rubyonrails.org/action_cable_overview.html): Integrating WebSockets with a Rails application for real-time features.
+
+## Digging Deeper
+
+- [Testing Rails Applications](https://guides.rubyonrails.org/testing.html): Writing and configuring tests in Rails.
+- [Debugging Rails Applications](https://guides.rubyonrails.org/debugging_rails_applications.html): Techniques for debugging Rails applications.
+- [Configuring Rails Applications](https://guides.rubyonrails.org/configuring.html): Basic configuration settings for a Rails application.
+- [The Rails Command Line](https://guides.rubyonrails.org/command_line.html): Command line tools used in everyday Rails development.
+- [The Asset Pipeline](https://guides.rubyonrails.org/asset_pipeline.html): Managing assets with Propshaft.
+- [Working with JavaScript in Rails](https://guides.rubyonrails.org/working_with_javascript_in_rails.html): Import maps, jsbundling-rails, and Turbo basics.
+- [Internationalization (I18n)](https://guides.rubyonrails.org/i18n.html): Translating content, pluralization, date formats, and more.
+- [The Rails Initialization Process](https://guides.rubyonrails.org/initialization.html): An in-depth look at Rails startup internals. (Work in progress)
+- [Autoloading and Reloading](https://guides.rubyonrails.org/autoloading_and_reloading_constants.html): How autoloading and reloading constants work.
+- [Active Support Instrumentation](https://guides.rubyonrails.org/active_support_instrumentation.html): Measuring events inside Rails with the instrumentation API. (Work in progress)
+- [Using Rails for API-only Applications](https://guides.rubyonrails.org/api_app.html): Building a JSON API application with Rails.
+
+## Going to Production
+
+- [Tuning Performance for Deployment](https://guides.rubyonrails.org/tuning_performance_for_deployment.html): Performance and concurrency configuration for production.
+- [Caching with Rails](https://guides.rubyonrails.org/caching_with_rails.html): Speeding up a Rails application with caching.
+- [Securing Rails Applications](https://guides.rubyonrails.org/security.html): Common security problems in web applications and how Rails helps avoid them.
+- [Error Reporting in Rails Applications](https://guides.rubyonrails.org/error_reporting.html): Managing errors that occur in Rails applications.
+
+## Advanced Active Record
+
+- [Active Record and PostgreSQL](https://guides.rubyonrails.org/active_record_postgresql.html): PostgreSQL-specific usage of Active Record. (Work in progress)
+- [Multiple Databases](https://guides.rubyonrails.org/active_record_multiple_databases.html): Using multiple databases in your application.
+- [Active Record Encryption](https://guides.rubyonrails.org/active_record_encryption.html): Encrypting database information using Active Record.
+- [Composite Primary Keys](https://guides.rubyonrails.org/active_record_composite_primary_keys.html): Composite primary keys for database tables.
+
+## Extending Rails
+
+- [The Basics of Creating Rails Plugins](https://guides.rubyonrails.org/plugins.html): Building a plugin to extend Rails functionality.
+- [Rails on Rack](https://guides.rubyonrails.org/rails_on_rack.html): Rails integration with Rack and other Rack components.
+- [Creating and Customizing Rails Generators & Templates](https://guides.rubyonrails.org/generators.html): Adding generators or customizing built-in ones.
+- [Rails Engines Overview](https://guides.rubyonrails.org/engines.html): Building miniature applications that extend a host application.
+- [Threading and Code Execution in Rails](https://guides.rubyonrails.org/threading_and_code_execution.html): Working with concurrency in a Rails application.
+
+## Contributing
+
+- [Contributing to Ruby on Rails](https://guides.rubyonrails.org/contributing_to_ruby_on_rails.html): Ways to get involved in the ongoing development of Rails.
+- [API Documentation Guidelines](https://guides.rubyonrails.org/api_documentation_guidelines.html): Guidelines for writing Rails API documentation.
+- [Guides Guidelines](https://guides.rubyonrails.org/ruby_on_rails_guides_guidelines.html): Guidelines for writing these guides.
+- [Installing Rails Core Development Dependencies](https://guides.rubyonrails.org/development_dependencies_install.html): Setting up an environment for Rails core development.
+
+## Policies
+
+- [Maintenance Policy](https://guides.rubyonrails.org/maintenance_policy.html): Which versions of Rails are currently supported.
+
+## Release Notes
+
+- [Upgrading Ruby on Rails](https://guides.rubyonrails.org/upgrading_ruby_on_rails.html): Steps to follow when upgrading to a newer version of Rails.
+- Version-specific release notes (e.g. [8.1](https://guides.rubyonrails.org/8_1_release_notes.html), [8.0](https://guides.rubyonrails.org/8_0_release_notes.html), [7.2](https://guides.rubyonrails.org/7_2_release_notes.html)) are linked from the main guides index at https://guides.rubyonrails.org/.
+
+## Optional
+
+- [Ruby on Rails API](https://api.rubyonrails.org/): Full class and method reference documentation for the Rails framework.
+- [Edge Guides](https://edgeguides.rubyonrails.org/): Guides for the unreleased, in-development version of Rails on the main branch.
+- [Rails Blog](https://rubyonrails.org/blog): News and announcements about Ruby on Rails.
+- [Rails Discussion Forum](https://discuss.rubyonrails.org/): Community discussion and support forum.
